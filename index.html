@@ -39,10 +39,23 @@
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 1.5rem;
     }
+    .nav-links {
+      margin-top: 1rem;
+      font-size: 1.1rem;
+    }
+    .nav-links a {
+      display: inline-block;
+      margin-right: 1rem;
+    }
+    .back-to-top {
+      margin-top: 1rem;
+      display: block;
+      font-size: 0.95rem;
+    }
   </style>
 </head>
 <body>
-  <div class="container">
+  <div class="container" id="top">
     <h1>Celia Yu</h1>
     <p>Email: <a href="mailto:celiafanyu@gmail.com">celiafanyu@gmail.com</a> | Phone: 02885230081 | Christchurch, NZ</p>
     <p><a href="https://www.linkedin.com/in/celia-yu-09312631b/" target="_blank">LinkedIn Profile</a></p>
@@ -52,7 +65,17 @@
       <p>Driven and detail-oriented intern seeking an entry-level Data Analyst role. Proficient in Excel, R, Python, ArcGIS Pro, Illustrator, and Tableau, with experience in SAR processing and a strong foundation in communication and analytical skills. Passionate about exploring cutting-edge models.</p>
     </div>
 
-    <div class="section">
+    <div class="nav-links">
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#interests">Interests</a>
+      <a href="#projects">Projects & Portfolio</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="section" id="experience">
       <h2>Experience</h2>
       <h3>GIS Intern, University of Canterbury (Nov 2024 - Jan 2025)</h3>
       <ul>
@@ -75,62 +98,64 @@
         <li>Visualized drug evaluation data with Excel and Tableau.</li>
         <li>Audited experimental data for optimization insights.</li>
       </ul>
+      <a class="back-to-top" href="#top">↑ Back to Top</a>
     </div>
 
-    <div class="section">
+    <div class="section" id="education">
       <h2>Education</h2>
       <h3>Master of Applied Data Science, University of Canterbury (2024 – 2025)</h3>
       <p>Courses include: Data Programming, Business Intelligence, Remote Sensing, Geovisual Analysis, and Statistical Learning.</p>
 
       <h3>Bachelor of Clinical Pharmacy, Harbin Medical University (2018 – 2023)</h3>
       <p>Courses include: Epidemiology, Pharmacology, Pharmaceutical Analysis, and Medical Statistics.</p>
+      <a class="back-to-top" href="#top">↑ Back to Top</a>
     </div>
 
-    <div class="section">
+    <div class="section" id="skills">
       <h2>Skills</h2>
       <p>Excel, R, Python, ArcGIS Pro, Illustrator, Tableau, SAR processing</p>
+      <a class="back-to-top" href="#top">↑ Back to Top</a>
     </div>
 
-    <div class="section">
+    <div class="section" id="interests">
       <h2>Interests</h2>
       <p>Hagley Parkrun, Gym, Tennis Club, Tramping</p>
+      <a class="back-to-top" href="#top">↑ Back to Top</a>
     </div>
 
-    <div class="section">
+    <div class="section" id="projects">
       <h2>Projects & Portfolio</h2>
       <div class="grid">
-
         <div>
           <a href="Florida_Tourism_Brochure.png" target="_blank">
             <img src="Florida_Tourism_Brochure.png" alt="ArcGIS pro Map Produce">
           </a>
-          <p><strong>Florida Tourism Brochure (ArcGIS Pro)</strong><br/></p>
+          <p><strong>Florida Tourism Brochure (ArcGIS Pro)</strong></p>
         </div>
 
         <div>
           <a href="Africa_reference_map.png" target="_blank">
             <img src="Africa_reference_map.png" alt="ArcGIS pro Map Produce">
           </a>
-          <p><strong>Africa reference map (ArcGIS pro)</strong><br/></p>
+          <p><strong>Africa reference map (ArcGIS pro)</strong></p>
         </div>
 
         <div>
           <a href="New_Zealand_Victimisations_Choropleth_Map.png" target="_blank">
             <img src="New_Zealand_Victimisations_Choropleth_Map.png" alt="ArcGIS pro Map Produce">
           </a>
-          <p><strong>Choropleth Map of New Zealand Victimisations (ArcGIS pro)</strong><br/></p>
+          <p><strong>Choropleth Map of New Zealand Victimisations (ArcGIS pro)</strong></p>
         </div>
 
         <div>
           <a href="Tree_ Canopy_Cover_of_University_of_Canterbury.png" target="_blank">
             <img src="Tree_ Canopy_Cover_of_University_of_Canterbury.png" alt="mapping the tree canopy cover of University of Canterbury">
           </a>
-          <p><strong>Mapping the Tree Canopy Cover of University of Canterbury (ArcGIS pro)</strong><br/></p>
+          <p><strong>Mapping the Tree Canopy Cover of University of Canterbury (ArcGIS pro)</strong></p>
         </div>
-
       </div>
+      <a class="back-to-top" href="#top">↑ Back to Top</a>
     </div>
-
   </div>
 </body>
 </html>
